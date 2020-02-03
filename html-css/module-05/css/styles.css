@@ -1,0 +1,368 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #555252;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.page-header {
+    padding-top: 38px;
+    padding-bottom: 32px;
+}
+
+.page-nav {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.logo {
+    display:block;
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+.logo::first-letter {
+    color: #1ABC9C;
+    font-weight: bold;
+}
+
+.site-navigation {
+    float: right;
+    width: 477px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 14px; 
+    list-style: none; 
+}
+
+.site-navigation li {
+    float: left;
+    margin-right: 30px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #1ABC9C;
+}
+
+.site-navigation li:nth-child(1) {
+    margin-right: 33px;
+}
+
+.site-navigation li:nth-child(2) {
+    margin-right: 37px;
+}
+
+.site-navigation li:nth-child(3) {
+    margin-right: 30px;
+}
+
+.site-navigation li:nth-child(4) {
+    margin-right: 27px;
+}
+
+.site-navigation li:nth-child(5) {
+    margin-right: 34px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+
+.site-navigation a {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0F0101;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+
+.tour {
+    background: url('../img/head-img.png') no-repeat center;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.icone-back {
+    position: absolute;
+    display: inline-block;
+    top: 70%;
+    left: 0;
+    transform: translateY(-5%);
+    border: none;
+    background-color: #4F9C8A;
+    width: 104px;
+    height: 104px;
+    color: #fff;
+    font-size: 69px;
+}
+
+.icone-next {
+    position: absolute;
+    display: inline-block;
+    top: 70%;
+    right: 0;
+    transform: translateY(-5%);
+    border: none;
+    background-color: #4F9C8A;
+    width: 104px;
+    height: 104px;
+    color: #fff;
+    font-size: 69px;
+}
+
+.tour-content {
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.tuor-description {
+    width: 738px;
+    height: 98px;
+    position: absolute;
+    left: 17%;
+}
+
+.tour-headline {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 58px;
+    text-transform: uppercase;
+}
+
+.tour-item {
+    position: absolute;
+    font-size: 23px;
+    font-weight: 300;
+    bottom: 12%;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.collection {
+    position: relative;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #E9F0FD;
+}
+
+.headline-collection {
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1.2;
+    margin-bottom: 119px;
+}
+
+.headline-collection::after {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #4EC6AB;
+    content: '';
+}
+
+.collection-cart {
+    float: left;
+    width: 255px;
+    height: 322px;
+    padding: 0;
+    margin-right: 30px;
+    position: relative;
+}
+
+.collection-cart:last-child {
+    margin-right: 0;
+}
+
+.cart-content {
+    position: relative;
+}
+
+.product-name {
+    position: absolute;
+    width: 201px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 13px;
+    margin: 0;
+    bottom: 0;;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #323232;
+}
+
+.product-price {
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8C8C8C;
+}
+
+.overlay {
+    position: absolute;
+    width: 235px;
+    height: 261px;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+
+.social-icons {
+    display: inline-block;
+    width: 166px;
+    height: 107px;
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+
+.icone-shopping {
+    background: url('../img/shopping-truck.png') no-repeat 10px center;
+    background-size: 24px 24px;
+    background-color: #323232;
+    bottom: 0;
+    padding-left: 40px;
+    height: 51px;
+    width: 166px;
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.icon-heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    background-image: url('../img/heart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color: transparent;
+}
+
+.icon-direction {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    background: url('../img/direction.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color: transparent;
+}
+
+.icon-clock {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    background: url('../img/clock.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color: transparent;
+}
+
+.collection-cart:hover .overlay {
+    opacity: 1;
+}
+
+.collection-cart:hover .product_price {
+    background-color: #7FD9C7;
+}
+
+.collection-cart:hover .product_name {
+    background-color: #1ABC9C
+}
+
+.icon-clock:hover,
+.icon-direction:hover,
+.icon-heart:hover,
+.icone-shopping:hover {
+    background-color: #1ABC9C;
+}
+
+.footer {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-color: #323232;
+}
+.footer-text {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: #FFFFFF; 
+   margin: 0;
+   padding: 0; 
+}
+
+.footer-link {
+    color: #46bfa9;
+    text-decoration: none;
+}
