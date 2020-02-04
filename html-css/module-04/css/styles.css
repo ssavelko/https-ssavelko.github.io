@@ -11,7 +11,7 @@ html {
 body{ 
     font-family: 'Roboto', sans-serif;
     color: gray;
-    width: 1170px;
+    /* width: 1170px; */
     margin: 0 auto;
     /* margin: 0 auto; */
     /* font-size: ;
@@ -89,6 +89,11 @@ header {
     color: #4ec6ab;
 }
 
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
 .title {
     position: relative;
     /* font-family: Arial; */
@@ -116,6 +121,7 @@ header {
 
 .product {
     padding-left: 0;
+    margin: 0;
 }
 
 .product-item {
@@ -128,6 +134,10 @@ header {
 .product-item:nth-child(4) {
     margin-right: 0;
 }
+
+/* .product-item::nth-last-child(-n+4) {
+    margin-bottom: 0;
+} */
 
 .product-item:hover .product-name-price {
     background-color: #1abc9c;
@@ -159,6 +169,10 @@ header {
 
 .img-product {
     display: block;
+}
+
+.img-product :nth-child(8){
+    margin-right: 0;
 }
 
 .news {
@@ -209,6 +223,6 @@ header {
     line-height: 13px;
     text-decoration: none;
     color: #EDF8F5;
-
+}
 
 
