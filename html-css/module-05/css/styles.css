@@ -124,7 +124,7 @@ img {
 }
 
 .icone-back {
-    background: url('../img/back-check-mark.png');
+    background-image: url('../img/back-check-mark.png');
     position: absolute;
     display: inline-block;
     top: 70%;
