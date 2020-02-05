@@ -1,0 +1,275 @@
+@font-face {
+	font-family: 'WisdomScriptAJ';
+	src: url('../fonts/WisdomScriptAJ.eot');
+    src: local('WisdomScriptAJ'), 
+    url('../fonts/WisdomScriptAJ.woff') format('woff'),
+    url('../fonts/WisdomScriptAJ.ttf') format('truetype');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 941px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 44px;
+    padding-bottom: 64px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.site-name {
+    display: inline-block;
+    font-family: 'WisdomScriptAJ';
+    font-size: 26px;
+    text-decoration: none;
+    color: #fed135;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.site-navigation li {
+    display: block;
+    position: relative;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.site-navigation a {
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.site-navigation a:hover ,
+.site-navigation a:focus  {
+    color: #fed136;
+}
+
+.services {
+    padding-top: 63px;
+    padding-bottom: 120px;
+}
+
+.headline-services {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 18px;
+}
+
+.text-services {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #777777;
+    padding-bottom: 77px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.service-list-item {
+    width: 280px;
+    padding-top: 97px;
+}
+
+.service-list-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #222222;
+}
+
+.service-list-text {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.service-list-item {
+    background-image: url(../img/basket.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.service-list-item:nth-of-type(2) {
+    background-image: url(../img/comp.png);
+}
+
+.service-list-item:nth-of-type(3) {
+    background-image: url(../img/padlock.png);
+}
+
+.contact {
+    background: url(../img/map.png) no-repeat center;
+    background-size: cover;
+    height: 676px;
+    padding-top: 110px;
+}
+
+.headline-contacts {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 23px;
+    color: #fff;
+}
+
+.headline-text-contacts {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #656565;
+    padding-bottom: 75px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 457px;
+}
+
+.message {
+    height: 212px;
+    width: 457px;
+    border: none;
+}
+
+.message-texterea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding-left: 21px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #bbbbbb;
+    border: none;
+}
+
+::-webkit-input-placeholder { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #bbbbbb; 
+}
+::-moz-placeholder          {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #bbbbbb; 
+}
+:-moz-placeholder           {
+    ffont-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #bbbbbb; 
+}
+:-ms-input-placeholder      {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #bbbbbb; 
+}
+
+.form-text-input {
+    height: 52px;
+    width: 100%;
+    border: none;
+    padding-left: 21px;
+    text-transform: uppercase;
+    outline: none;
+    color: #bbbbbb;
+}
+
+.form-text-input:focus {
+    outline: none;
+    border: none;
+    outline-offset: 0;
+}
+
+.form-text-input:focus:valid {
+    outline: 1px solid green;
+}
+
+.form-text-input:focus:invalid {
+    outline: 1px solid red;
+}
+
+.message-texterea:focus {
+    outline: none;
+    border: none;
+    outline-offset: 0;
+}
+
+.message-texterea:focus:valid {
+    outline: 1px solid green;
+}
+
+.message-texterea:focus:invalid {
+    outline: 1px solid red;
+}
+
+.buttom {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background-color: #fed136; 
+}
