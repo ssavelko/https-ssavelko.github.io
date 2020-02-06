@@ -124,7 +124,6 @@ img {
 }
 
 .icone-back {
-    background-image: url('../img/back-check-mark.png');
     position: absolute;
     display: inline-block;
     top: 70%;
@@ -136,6 +135,12 @@ img {
     height: 104px;
     color: #fff;
     font-size: 69px;
+}
+
+.back-mark {
+    background-image: url('../img/rectangl-back-transparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icone-next {
@@ -150,6 +155,12 @@ img {
     height: 104px;
     color: #fff;
     font-size: 69px;
+}
+
+.next-mark {
+    background-image: url('../img/rectangl-next-tranparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tour-content {
