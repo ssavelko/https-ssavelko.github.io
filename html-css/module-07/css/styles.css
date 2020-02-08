@@ -1,10 +1,21 @@
 @font-face {
 	font-family: 'WisdomScriptAJ';
-	src: url('../fonts/WisdomScriptAJ.eot');
-    src: local('WisdomScriptAJ'), 
-    url('../fonts/WisdomScriptAJ.woff') format('woff'),
-    url('../fonts/WisdomScriptAJ.ttf') format('truetype');
+	src: local('WisdomScriptAJ'), 
+    url('../fonts/WisdomScriptAJ.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), 
+    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-slab";
+    src: local('Roboto-slab'),
+    url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff');
+}
+
 
 html {
     box-sizing: border-box;
@@ -20,7 +31,7 @@ html {
 
 body {
     font-family: "Roboto", "Arial", sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','Roboto-slab', 'WisdomScriptAJ', sans-serif;
     color: #777777;
     font-size: 14px;
     line-height: 21px;
