@@ -24,7 +24,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -93,13 +93,13 @@ img {
 
 .p-case {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     font-size: 14px;
    }
 
 .h3-case {
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
     font-size: 30px;
 }
 
@@ -114,12 +114,17 @@ img {
     font-size: 20px;
     line-height: 24px;
     font-family: 'Playfair Display', serif;
+    cursor: pointer; 
         /* margin-top: 60px; */
 }
 
 .case-push:hover,
 .case-push:focus {
     color: red;
+}
+
+.img-case {
+    margin-bottom: 30px;
 }
 
 /* .push-button {
