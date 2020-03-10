@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Playfair Display', serif;
-    /* color: gray; */
+    color: gray;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -42,6 +42,8 @@ img {
     text-align: center;
     word-spacing: 10px;
     margin-bottom: 66px;
+    color: #626262;
+    text-decoration: none;
 }
 
 .navigation li {
@@ -50,8 +52,8 @@ img {
     font-size: 14px;
     }
 
-.navigation li a: {
-    color: gray;
+.navigation li a {
+    color: #626262;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
@@ -59,7 +61,7 @@ img {
 
 .navigation li a:hover,
 .navigation li a:focus {
-    color: red;
+    color: #03a9f4;
 }
 
 .navigation li:last-child {
