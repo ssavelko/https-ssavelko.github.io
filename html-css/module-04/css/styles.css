@@ -120,7 +120,7 @@ header {
     width: 164px;
     border: 4px solid #4ec6ab;
     background-color: #4ec6ab;
-    bottom: -32px;
+    bottom: -30px;
     right: 0;
     left: 0;
     margin: auto;
@@ -158,6 +158,7 @@ header {
     background-color: #323232;
     color: #ffffff;
     font-size: 14px;
+    font-weight: 900;
 }
 
 .product-name {
@@ -165,7 +166,7 @@ header {
     line-height: 40px;
     padding: 0 14px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .product-price {
