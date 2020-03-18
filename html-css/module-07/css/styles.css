@@ -51,6 +51,7 @@ img {
     padding-top: 44px;
     padding-bottom: 64px;
 }
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -208,7 +209,7 @@ img {
     padding-left: 21px;
     padding-top: 20px;
     text-transform: uppercase;
-    color: #bbbbbb;
+    color: #000000;
     border: none;
 }
 
@@ -223,7 +224,7 @@ img {
     color: #bbbbbb; 
 }
 :-moz-placeholder           {
-    ffont-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #bbbbbb; 
 }
@@ -240,7 +241,7 @@ img {
     padding-left: 21px;
     text-transform: uppercase;
     outline: none;
-    color: #bbbbbb;
+    color: #000000;
 }
 
 .form-text-input:focus {
