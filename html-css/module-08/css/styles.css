@@ -58,6 +58,7 @@ img {
     background-color: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .button_enter {
@@ -112,6 +113,7 @@ img {
     color: #ffffff;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .section_partners {
@@ -197,6 +199,7 @@ img {
     background-color: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .button_partners:last-of-type {
