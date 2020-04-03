@@ -1,0 +1,62 @@
+
+.services {
+    padding-top: 50px;
+
+    &_work {
+        font-family: $font-title;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 24px;
+      }
+
+      &_amazing {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: $font-main;
+        margin-bottom: 112px;
+        position: relative;
+
+          &::after {
+            position: absolute;
+            top: 43px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: $transition-hover-color;
+            content: '';
+          }
+      }
+  }
+
+  .service_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+
+    &_item {
+        position: relative;
+        width: 380px;
+        padding-left: 91px;
+        margin-bottom: 92px;
+      }
+  }
+  
+  .list_name {
+    margin-bottom: 16px;
+    font-family: $font-main;
+    text-transform: uppercase;
+  }
+
+  .icon_service {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    width: 32px;
+    height: 32px;
+    fill: #95e1d2;
+  }

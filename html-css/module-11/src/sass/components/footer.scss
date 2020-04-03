@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    border-top: 1px solid #ccc;
+
+    &__text {
+        margin: 0;
+        padding: 0;
+      }
+  }
+  
+  .footer__link {
+    list-style: none;
+    text-decoration: none;
+    color: $default-color;
+    transition: 0.3s ease-in-out;
+    
+    &:hover,
+    &:focus {
+    color: $transition-hover-color;
+    }
+  }
+  
+  .input {
+    width: 229px;
+    height: 40px;
+    padding: 1px;
+    font-family: $default-font-family;
+    font-style: italic;
+    border: 1px solid gray;
+    border-right: none;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .Subscribe {
+    text-transform: uppercase;
+    color: $button-color;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+  }
