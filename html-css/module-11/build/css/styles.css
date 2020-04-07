@@ -450,7 +450,7 @@ img {
 .input {
     width: 229px;
     height: 40px;
-    padding: 1px;
+    padding: 12px;
     font-family: 'Roboto';
     font-style: italic;
     border: 1px solid gray;
